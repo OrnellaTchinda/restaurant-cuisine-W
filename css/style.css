@@ -1,0 +1,219 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+
+  height: 4rem;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+header nav>img {
+  flex-grow: 3;
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+main {
+  height: 40rem;
+  display: flex;
+  width: 100%;
+  padding: 5rem 0 2rem 5rem;
+  justify-content: flex-start;
+  align-content: flex-start;
+  background-image: url("../css/monika-grabkowska-jsgJtBOR6jY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: linear;
+  background-image: linear-gradient(white, black);
+
+}
+
+.one>h1 {
+  font-size: 3.1rem;
+}
+
+.oneOne {
+  width: 25%;
+
+}
+
+
+
+.oneOne ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-content: flex-start;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+.one form input {
+  color: #fff;
+  margin-bottom: 2px;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+  height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.one form button {
+  background-color: orange;
+  margin-bottom: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 2.5rem;
+  font-size: 1.2rem;
+
+}
+
+.second {
+  height: 50rem;
+  display: flex;
+  justify-content: flex-start;
+
+  background-image: url("../images/monika-grabkowska-neu4T59mTcY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: linear;
+  background-image: linear-gradient(white);
+  background-transform: rotate(180deg);
+
+}
+
+.secondOne {
+  padding: 5rem 10rem 5rem 45rem;
+}
+
+.third {
+  height: 40rem;
+
+}
+
+.thirdOne {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.thirdOne>ul {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  padding: 0 20rem;
+}
+
+.thirdTwo>ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding: 0 7.5rem;
+}
+
+.food-picture {
+  height: 20rem;
+  width: 15rem;
+}
+
+.fourth {
+  /* display: flex; */
+  height: 40rem;
+  padding: 0 25rem;
+}
+
+.fourthOne,
+.fourthTwo {
+
+  text-align: center;
+}
+
+.fourthThree {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthThreeThree {
+  display: flex;
+  justify-content: center;
+
+}
+
+.fifth {
+  height: 50rem;
+  text-align: center;
+}
+
+.fifthTwo {
+  padding-top: 5rem;
+  justify-content: center;
+}
+
+.fifthTwo ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  height: 10rem;
+  position: top;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.fifthTwo p {
+  padding: 0 30rem;
+}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
